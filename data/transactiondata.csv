@@ -1,62 +1,51 @@
 date,merchant,amount,description
-2024-10-01,Amazon,45.99,Online shopping - household items
-2024-10-01,Starbucks,8.25,Coffee and snack
-2024-10-02,Trader Joe's,76.40,Grocery shopping
-2024-10-02,Uber,22.50,Transportation ride
-2024-10-03,Blue Bottle,6.50,Coffee
-2024-10-03,Costco,185.75,Monthly groceries
-2024-10-04,Chipotle,14.10,Lunch
-2024-10-05,Spotify,10.99,Subscription service
-2024-10-05,Apple Store,120.00,Electronics purchase
-2024-10-06,Shell Gas,42.30,Gas refill
-2024-10-06,Whole Foods,84.60,Groceries
-2024-10-07,Paycheck,-2500.00,Monthly salary incoming
-2024-10-07,AT&T,95.00,Phone and internet bill
-2024-10-08,Domino's,18.75,Food takeout
-2024-10-08,Netflix,15.99,Streaming subscription
-2024-10-09,Target,67.43,Household supplies
-2024-10-09,Starbucks,5.75,Morning coffee
-2024-10-10,Chevron,38.50,Gas refill
-2024-10-10,Walgreens,23.18,Pharmacy and toiletries
-2024-10-11,Uber Eats,32.40,Food delivery
-2024-10-11,Amazon,89.99,Electronics accessories
-2024-10-12,Trader Joe's,54.20,Weekly groceries
-2024-10-12,AMC Theaters,28.00,Movie tickets
-2024-10-13,Venmo,-150.00,Payment received from friend
-2024-10-13,Panera Bread,16.45,Lunch
-2024-10-14,PG&E,142.50,Electric and gas bill
-2024-10-14,Lyft,18.75,Ride to appointment
-2024-10-15,Paycheck,-2500.00,Bi-weekly salary
-2024-10-15,Costco,210.30,Bulk shopping
-2024-10-16,Starbucks,7.25,Coffee and pastry
-2024-10-16,CVS,45.60,Prescriptions
-2024-10-17,Olive Garden,58.90,Dinner with family
-2024-10-17,Amazon Prime,14.99,Monthly subscription
-2024-10-18,Safeway,92.15,Grocery shopping
-2024-10-18,Jiffy Lube,75.00,Oil change
-2024-10-19,Best Buy,249.99,Computer accessories
-2024-10-19,McDonald's,12.85,Quick lunch
-2024-10-20,Shell Gas,45.00,Gas refill
-2024-10-20,Home Depot,156.78,Home improvement supplies
-2024-10-21,Freelance Client,-800.00,Consulting payment received
-2024-10-21,Starbucks,6.50,Afternoon coffee
-2024-10-22,Trader Joe's,68.30,Grocery shopping
-2024-10-22,Hulu,17.99,Streaming subscription
-2024-10-23,Uber,25.00,Airport ride
-2024-10-23,Thai Kitchen,24.50,Dinner takeout
-2024-10-24,Water Company,65.00,Monthly water bill
-2024-10-24,Gym Membership,49.99,Monthly fitness
-2024-10-25,Amazon,34.99,Books purchase
-2024-10-25,Chick-fil-A,11.25,Lunch
-2024-10-26,Costco Gas,52.40,Gas refill
-2024-10-26,Target,88.50,Clothing purchase
-2024-10-27,Interest Income,-12.50,Savings account interest
-2024-10-27,Whole Foods,76.80,Organic groceries
-2024-10-28,Starbucks,8.75,Coffee meeting
-2024-10-28,Car Insurance,185.00,Monthly premium
-2024-10-29,Steam,59.99,Video game purchase
-2024-10-29,Subway,9.50,Quick lunch
-2024-10-30,Paycheck,-2500.00,Bi-weekly salary
-2024-10-30,Rent Payment,1800.00,Monthly rent
-2024-10-31,Party City,45.00,Halloween supplies
-2024-10-31,Trader Joe's,62.15,Grocery shopping
+2024-10-01,Client Invoice Payment,-3500.00,Monthly retainer - ABC Corp
+2024-10-01,WeWork,850.00,Co-working space monthly rent
+2024-10-01,Adobe Creative Cloud,79.99,Design software subscription
+2024-10-02,Staples,156.43,Office supplies - printer paper and toner
+2024-10-02,Starbucks,45.30,Client meeting coffee
+2024-10-03,LinkedIn Premium,59.99,Professional networking subscription
+2024-03,AWS,234.50,Cloud hosting services
+2024-10-03,Uber,28.50,Transportation to client site
+2024-10-04,Verizon Business,189.00,Business phone and internet
+2024-10-04,Salesforce,-1200.00,Consulting project payment received
+2024-10-05,Square Payroll,2850.00,Employee salaries - 2 contractors
+2024-10-05,Panera Bread,67.80,Team lunch meeting
+2024-10-06,Microsoft 365,22.00,Business suite subscription
+2024-10-06,FedEx,45.30,Shipping documents to client
+2024-10-07,Google Workspace,18.00,Email and cloud storage
+2024-10-07,Best Buy,1299.99,New laptop for employee
+2024-10-08,Stripe Processing Fees,87.50,Credit card transaction fees
+2024-10-08,Dunkin Donuts,23.40,Morning team coffee
+2024-10-09,QuickBooks Online,35.00,Accounting software
+2024-10-09,Home Depot,234.67,Office furniture and fixtures
+2024-10-10,Client Payment - Tech Startup,-2800.00,Website development project
+2024-10-10,Zoom,16.99,Video conferencing pro plan
+2024-10-11,Shell Gas,52.00,Fuel for business trip
+2024-10-11,Holiday Inn,189.00,Overnight stay for conference
+2024-10-12,Grammarly Business,30.00,Writing tools subscription
+2024-10-12,Chipotle,56.75,Working lunch with team
+2024-10-13,Amazon Business,445.89,Office equipment and supplies
+2024-10-13,Mailchimp,79.00,Email marketing platform
+2024-10-14,Pacific Gas & Electric,156.80,Office electricity bill
+2024-10-14,Freelancer Payment,-950.00,Graphic design project income
+2024-10-15,Slack,12.50,Team communication tool
+2024-10-15,Uber,34.20,Client meeting transportation
+2024-10-16,GitHub,21.00,Code repository subscription
+2024-10-16,Starbucks,38.50,Client presentation meeting
+2024-10-17,Insurance Company,425.00,Business liability insurance
+2024-10-17,Canva Pro,15.99,Design platform subscription
+2024-10-18,Retainer Payment - Law Firm,-4500.00,Monthly consulting services
+2024-10-18,Office Depot,189.34,Printer supplies and folders
+2024-10-19,Shopify,79.00,E-commerce platform subscription
+2024-10-19,Subway,42.30,Team lunch during sprint
+2024-10-20,Dropbox Business,20.00,Cloud storage upgrade
+2024-10-20,Lyft,29.75,Airport transportation
+2024-10-21,Domain Registrar,35.99,Annual domain renewal
+2024-10-21,Local Restaurant,145.60,Client dinner meeting
+2024-10-22,HubSpot,90.00,CRM software subscription
+2024-10-22,Project Milestone,-1750.00,App development payment received
+2024-10-23,Hootsuite,49.00,Social media management
+2024-10-23,Costco Business,312.45,Bulk office supplies
+2024-10-24,Water & Sewer,45.00,Office utilities
+2024-10-24,DocuSign,40.00,Electronic signature service

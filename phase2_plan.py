@@ -36,7 +36,7 @@ Return ONLY valid JSON (no markdown, no extra text):
 YOUR RESPONSE MUST START WITH {{ AND END WITH }}. Nothing else.
 """
 
-# Call Amazon Titan
+# Calling Amazon Titan since its free
 bedrock = boto3.client('bedrock-runtime', region_name='us-east-1')
 
 response = bedrock.invoke_model(
@@ -53,7 +53,7 @@ response = bedrock.invoke_model(
 output = json.loads(response['body'].read())
 text = output['results'][0]['outputText']
 
-# BETTER JSON CLEANING
+# JSON CLEANING
 text = text.strip()
 
 # Remove markdown code blocks
@@ -65,7 +65,7 @@ if text.endswith("```"):
     text = text[:-3]
 text = text.strip()
 
-# Find JSON in response (Titan sometimes adds extra text)
+# Find JSON in response since Titan sometimes adds extra text
 start = text.find('{')
 end = text.rfind('}') + 1
 if start != -1 and end > start:
@@ -85,7 +85,7 @@ except json.JSONDecodeError as e:
 
 # Validate structure
 if "plan_steps" not in plan:
-    print("Warning: Response missing 'plan_steps', attempting to fix...")
+    print("Warning: Response missing 'plan_steps'")
     if isinstance(plan, list):
         plan = {"plan_steps": plan}
     elif "steps" in plan:
@@ -94,5 +94,3 @@ if "plan_steps" not in plan:
 # Save
 with open('outputs/plan.json', 'w') as f:
     json.dump(plan, f, indent=2)
-
-print("✅ plan.json created successfully!")
