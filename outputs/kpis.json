@@ -1,0 +1,12 @@
+{
+  "kpis": {
+    "total_spend": 8979.42,
+    "total_income": 14700.0,
+    "top_merchants": [
+      "Square Payroll",
+      "Best Buy",
+      "WeWork"
+    ],
+    "average_expense": 204.08
+  }
+}
